@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH45- Thêm mới sp với loại Combo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>21fb2280-cc26-45ad-bf0d-dce7426c895a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH20- Thêm mới đầy đủ các thông tin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>09959ca6-f731-4ce6-8116-9710e486b8ae</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88e4edf4-cdd5-469e-bf0c-a7004fea062d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>873e3d68-e06c-48b0-bd54-706a24cdba56</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>090aa4ed-0704-488f-84f5-7148459f1e56</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HoanThanh'</defaultValue>
+      <description></description>
+      <id>88e4edf4-cdd5-469e-bf0c-a7004fea062d</id>
+      <masked>false</masked>
+      <name>maCT</name>
+   </variable>
+   <variable>
+      <defaultValue>'huythanh'</defaultValue>
+      <description></description>
+      <id>873e3d68-e06c-48b0-bd54-706a24cdba56</id>
+      <masked>false</masked>
+      <name>nhaCungCap</name>
+   </variable>
+   <variable>
+      <defaultValue>'20/03/2026 15:09'</defaultValue>
+      <description></description>
+      <id>090aa4ed-0704-488f-84f5-7148459f1e56</id>
+      <masked>false</masked>
+      <name>ngayNhap</name>
+   </variable>
+</TestCaseEntity>

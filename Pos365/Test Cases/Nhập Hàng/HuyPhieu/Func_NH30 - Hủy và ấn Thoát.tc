@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH30 - Hủy và ấn Thoát</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aa509c23-85d1-4a5b-acf0-3c0f2f3bf2f8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e495666-3400-4796-8755-5f085694c373</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HuyThoat'</defaultValue>
+      <description></description>
+      <id>8e495666-3400-4796-8755-5f085694c373</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+</TestCaseEntity>

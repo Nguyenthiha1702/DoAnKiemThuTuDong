@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Val_NH20--27 - Validate Số lượng</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1e082ad1-8860-4898-ae76-62c721ce3c1c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74e0f912-7985-4815-b759-fd5c30b5fef6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b36844e1-3457-4387-9ed0-d232c0bd3ef5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93e82dec-a4e1-48dc-9389-22928bdeb2ee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74e0f912-7985-4815-b759-fd5c30b5fef6</id>
+      <masked>false</masked>
+      <name>tc_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b36844e1-3457-4387-9ed0-d232c0bd3ef5</id>
+      <masked>false</masked>
+      <name>soLuong</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>93e82dec-a4e1-48dc-9389-22928bdeb2ee</id>
+      <masked>false</masked>
+      <name>expect</name>
+   </variable>
+</TestCaseEntity>

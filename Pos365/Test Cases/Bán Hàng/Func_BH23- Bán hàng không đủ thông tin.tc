@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH23- Bán hàng không đủ thông tin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d26fb44-d2a4-4965-88d1-521032150d05</testCaseGuid>
+</TestCaseEntity>

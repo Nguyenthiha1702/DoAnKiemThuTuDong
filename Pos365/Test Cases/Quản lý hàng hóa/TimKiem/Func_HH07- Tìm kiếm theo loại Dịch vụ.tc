@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH07- Tìm kiếm theo loại Dịch vụ</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db36af5b-6cd3-44fc-bf89-1224b6cdfd59</testCaseGuid>
+</TestCaseEntity>

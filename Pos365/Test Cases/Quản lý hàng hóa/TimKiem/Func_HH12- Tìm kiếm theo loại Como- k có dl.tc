@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH12- Tìm kiếm theo loại Como- k có dl</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d11e553-8c6f-4c73-ab37-2f9fee1b6d4f</testCaseGuid>
+</TestCaseEntity>

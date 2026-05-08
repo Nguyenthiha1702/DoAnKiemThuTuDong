@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH20- Bán hàng với mã CT nhập tay</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>46a36cee-ae43-4e86-84b0-d476a7376e87</testCaseGuid>
+</TestCaseEntity>

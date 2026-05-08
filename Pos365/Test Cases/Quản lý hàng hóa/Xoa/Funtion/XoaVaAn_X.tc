@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>XoaVaAn_X</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0eef09de-bc0c-457d-9000-9e012b9b504d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c99dcaa9-6079-4bb2-9a52-43cc97a260f9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'add02144813'</defaultValue>
+      <description></description>
+      <id>c99dcaa9-6079-4bb2-9a52-43cc97a260f9</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+</TestCaseEntity>

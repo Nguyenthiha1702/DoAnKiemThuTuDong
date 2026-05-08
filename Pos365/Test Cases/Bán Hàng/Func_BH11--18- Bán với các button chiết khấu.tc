@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH11--18- Bán với các button chiết khấu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>20d35676-250e-432c-aedc-f0e06b14526c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b990ce5-c487-455a-ba7c-2ec75e9156d3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2b990ce5-c487-455a-ba7c-2ec75e9156d3</id>
+      <masked>false</masked>
+      <name>chietKhau</name>
+   </variable>
+</TestCaseEntity>

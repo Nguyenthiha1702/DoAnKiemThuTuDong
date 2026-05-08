@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH04 - Tìm kiếm theo tên nhà cung cấp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>63585245-d6b3-405a-9ce7-a3ccaf8e7250</testCaseGuid>
+</TestCaseEntity>

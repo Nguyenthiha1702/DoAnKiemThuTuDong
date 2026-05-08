@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH05- Tìm kiếm theo trạng thái hoàn thành</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2303def2-b315-4a37-977a-6d0775a0b7ed</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0de4db70-1df9-47f6-b0a7-fb8a244e905e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db138e4f-fe8e-4f74-b4e4-1129298af1dd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Func05_1'</defaultValue>
+      <description></description>
+      <id>0de4db70-1df9-47f6-b0a7-fb8a244e905e</id>
+      <masked>false</masked>
+      <name>ma1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Func05_2'</defaultValue>
+      <description></description>
+      <id>db138e4f-fe8e-4f74-b4e4-1129298af1dd</id>
+      <masked>false</masked>
+      <name>ma2</name>
+   </variable>
+</TestCaseEntity>

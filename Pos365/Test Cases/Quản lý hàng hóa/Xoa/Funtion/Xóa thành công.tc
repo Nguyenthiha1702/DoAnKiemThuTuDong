@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Xóa thành công</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bba77842-6d51-4bd5-a0ac-c9b8ae96c570</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6341daf6-9629-48a2-b272-0325f2b600e5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'add02205327'</defaultValue>
+      <description></description>
+      <id>6341daf6-9629-48a2-b272-0325f2b600e5</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+</TestCaseEntity>

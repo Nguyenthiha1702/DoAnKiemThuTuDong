@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Val_BH33--38- Validate Số lượng</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e7d5cb3e-2d9f-44ef-8596-9156368a0842</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e1ce86c-0fca-427b-a8b5-604b11919d42</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>935f2918-de2e-4cac-8b71-3b07beb624f9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f69ebfd6-52ee-49be-88db-733991737cce</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e1ce86c-0fca-427b-a8b5-604b11919d42</id>
+      <masked>false</masked>
+      <name>tc_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>935f2918-de2e-4cac-8b71-3b07beb624f9</id>
+      <masked>false</masked>
+      <name>Sl</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>f69ebfd6-52ee-49be-88db-733991737cce</id>
+      <masked>false</masked>
+      <name>expect</name>
+   </variable>
+</TestCaseEntity>

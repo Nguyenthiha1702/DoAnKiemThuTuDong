@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Val_HH37--42- Validate Giá Vốn</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>07324f04-4a12-4726-82e2-e2d04a98223e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b9bddaf-f5b0-42cf-9ae9-3052ba3690d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>efe98a19-ed2d-426c-bcf8-345be810d682</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9a5ae80-3903-4ef3-bfe5-14fc3966679b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3b9bddaf-f5b0-42cf-9ae9-3052ba3690d0</id>
+      <masked>false</masked>
+      <name>tc_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>efe98a19-ed2d-426c-bcf8-345be810d682</id>
+      <masked>false</masked>
+      <name>giaVon</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>d9a5ae80-3903-4ef3-bfe5-14fc3966679b</id>
+      <masked>false</masked>
+      <name>expect</name>
+   </variable>
+</TestCaseEntity>

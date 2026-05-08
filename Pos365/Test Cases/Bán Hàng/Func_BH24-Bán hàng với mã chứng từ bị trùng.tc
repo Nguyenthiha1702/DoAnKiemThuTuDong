@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH24-Bán hàng với mã chứng từ bị trùng</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06d99b82-4064-4d35-879e-bed0d9a7021e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>nhập hàng so sánh thông tin CT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e441114-c104-498d-9af4-9be04d1c3a2a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>72a504e1-865e-4275-8171-0fbc62b67ba1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3d2bec5-e395-406b-bb7e-0536ea19aca2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>629cf45f-7ded-48d8-a595-eef1d7b20c3d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HaTestMaCT'</defaultValue>
+      <description></description>
+      <id>72a504e1-865e-4275-8171-0fbc62b67ba1</id>
+      <masked>false</masked>
+      <name>maCT</name>
+   </variable>
+   <variable>
+      <defaultValue>'huythanh'</defaultValue>
+      <description></description>
+      <id>d3d2bec5-e395-406b-bb7e-0536ea19aca2</id>
+      <masked>false</masked>
+      <name>nhaCungCap</name>
+   </variable>
+   <variable>
+      <defaultValue>'20/03/2025 15:09'</defaultValue>
+      <description></description>
+      <id>629cf45f-7ded-48d8-a595-eef1d7b20c3d</id>
+      <masked>false</masked>
+      <name>ngayNhap</name>
+   </variable>
+</TestCaseEntity>

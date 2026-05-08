@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH09- Bán với chiết khấu input phantram</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d95293b-8562-4935-8c45-f1727bddc0f2</testCaseGuid>
+</TestCaseEntity>

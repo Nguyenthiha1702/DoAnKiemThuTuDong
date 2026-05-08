@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH14 - Nhập hàng với Nhà cung cấp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c1c203ce-c9b8-4bd8-80f2-070a1234a2ce</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5406fe07-c3ad-4286-9ec6-bd1a2dfa86ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3858e18c-df3f-4707-89bc-f3fd41f5bd50</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'huythanh'</defaultValue>
+      <description></description>
+      <id>5406fe07-c3ad-4286-9ec6-bd1a2dfa86ae</id>
+      <masked>false</masked>
+      <name>nhaCungCap</name>
+   </variable>
+   <variable>
+      <defaultValue>'NCC'</defaultValue>
+      <description></description>
+      <id>3858e18c-df3f-4707-89bc-f3fd41f5bd50</id>
+      <masked>false</masked>
+      <name>maCT</name>
+   </variable>
+</TestCaseEntity>

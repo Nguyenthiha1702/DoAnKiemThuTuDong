@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH10- Tìm kiếm theo thời gian Tháng trước</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eb62f8fd-fb54-497e-8d45-9e0b62920979</testCaseGuid>
+</TestCaseEntity>

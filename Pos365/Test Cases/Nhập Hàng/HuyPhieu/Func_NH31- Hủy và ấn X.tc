@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH31- Hủy và ấn X</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f5a1abbd-8781-450f-a364-9131561ffeeb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33787a49-a8cf-4fa7-9312-1e7868fc83c3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Huy'</defaultValue>
+      <description></description>
+      <id>33787a49-a8cf-4fa7-9312-1e7868fc83c3</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+</TestCaseEntity>

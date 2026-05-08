@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH04- Kiểm tra tài khoản nhân viên không thuộc chi nhánh</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aba55391-49c0-41de-ad71-1792df752784</testCaseGuid>
+</TestCaseEntity>

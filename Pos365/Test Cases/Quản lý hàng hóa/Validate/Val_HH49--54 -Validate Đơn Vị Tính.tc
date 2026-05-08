@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Val_HH49--54 -Validate Đơn Vị Tính</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3398b539-bee4-4c7a-ad88-be2373dcaa20</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d83571d-8133-4495-b6d5-8532d2af1886</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad976b6a-7c56-4a5f-9325-6aba754d6e24</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>60dc7831-a1af-4f6d-81ae-ec277680f2de</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d83571d-8133-4495-b6d5-8532d2af1886</id>
+      <masked>false</masked>
+      <name>tc_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad976b6a-7c56-4a5f-9325-6aba754d6e24</id>
+      <masked>false</masked>
+      <name>dvt</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>60dc7831-a1af-4f6d-81ae-ec277680f2de</id>
+      <masked>false</masked>
+      <name>expect</name>
+   </variable>
+</TestCaseEntity>

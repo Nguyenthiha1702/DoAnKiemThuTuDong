@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH19- Bán hàng với VAT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7907693c-32ee-4dd8-b4ff-fe718ef4ad4c</testCaseGuid>
+</TestCaseEntity>

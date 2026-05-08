@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Val_NH28--34- Validate Giá Nhập</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fce62bb2-6c31-4941-80a2-e62f1e699f42</testCaseGuid>
+</TestCaseEntity>

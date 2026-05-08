@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Val_HH22--30- Validate Tên hàng hóa</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>557f37e8-f34d-46a8-b323-47b8e4f7c1f4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86c28bdd-d1fe-4347-8da5-8301458b9244</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9748c999-ec15-454b-b71e-1467263e09aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0062a157-a11e-4475-8f26-81779be0172c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>86c28bdd-d1fe-4347-8da5-8301458b9244</id>
+      <masked>false</masked>
+      <name>ten</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>9748c999-ec15-454b-b71e-1467263e09aa</id>
+      <masked>false</masked>
+      <name>expect</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0062a157-a11e-4475-8f26-81779be0172c</id>
+      <masked>false</masked>
+      <name>tc_id</name>
+   </variable>
+</TestCaseEntity>

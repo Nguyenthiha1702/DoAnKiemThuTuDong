@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH01- Tìm kiếm khách hàng dựa vào SĐT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4e25a649-d18d-4517-91bb-83f24da94b74</testCaseGuid>
+</TestCaseEntity>

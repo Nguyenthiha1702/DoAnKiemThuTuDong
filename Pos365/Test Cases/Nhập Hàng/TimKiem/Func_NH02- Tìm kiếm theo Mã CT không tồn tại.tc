@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH02- Tìm kiếm theo Mã CT không tồn tại</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f25c65fb-59ca-4e11-b536-9f09b0c65e9f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>119b5f08-2464-40b3-829c-c6be219630b2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Func02'</defaultValue>
+      <description></description>
+      <id>119b5f08-2464-40b3-829c-c6be219630b2</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+</TestCaseEntity>

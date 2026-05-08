@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Val_BH27--32 Validate Giá Bán</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d42c370b-7e90-4832-aaf7-75be7c47584c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b590e12f-511a-4b25-a38b-cf866b63820c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9d62d08-d4bc-4cb5-bff4-133ad05c7887</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11bb5010-de6f-42fa-bd45-ce7574ec5656</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b590e12f-511a-4b25-a38b-cf866b63820c</id>
+      <masked>false</masked>
+      <name>tc_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b9d62d08-d4bc-4cb5-bff4-133ad05c7887</id>
+      <masked>false</masked>
+      <name>Gia</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>11bb5010-de6f-42fa-bd45-ce7574ec5656</id>
+      <masked>false</masked>
+      <name>expect</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH22 - Nhập hàng với mã CT đã tồn tại</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be5418ab-df57-4db9-9bf2-21c67ff3afe0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH03 - Tìm kiếm theo mã hàng hóa có tồn tại</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f7351369-187f-45f9-be2a-c3d177657516</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8cbcf743-9398-4e13-8d67-0af61c74af94</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Func03'</defaultValue>
+      <description></description>
+      <id>8cbcf743-9398-4e13-8d67-0af61c74af94</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+</TestCaseEntity>

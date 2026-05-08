@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>XoaVaThoat</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>09972fd5-2025-4d48-a07a-6f314b5a0549</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f07add66-5035-4fac-aa20-cc97f34b4547</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'add02144813'</defaultValue>
+      <description></description>
+      <id>f07add66-5035-4fac-aa20-cc97f34b4547</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+</TestCaseEntity>

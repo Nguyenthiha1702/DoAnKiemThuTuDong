@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH10- Tìm kiếm theo loại Hàng hóa - k có dl</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>24e3f51e-25f2-4538-9600-3cbe28325bac</testCaseGuid>
+</TestCaseEntity>

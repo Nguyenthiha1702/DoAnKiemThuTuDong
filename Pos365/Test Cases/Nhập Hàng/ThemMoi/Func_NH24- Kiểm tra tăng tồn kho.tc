@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH24- Kiểm tra tăng tồn kho</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e0bd594-8bc5-470f-a1a9-8af8e239ebef</testCaseGuid>
+</TestCaseEntity>

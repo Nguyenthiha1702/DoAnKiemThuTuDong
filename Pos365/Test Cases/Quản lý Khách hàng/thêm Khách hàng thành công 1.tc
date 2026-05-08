@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>thêm Khách hàng thành công 1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>321fb763-cb2a-4c24-a222-6ad0d6be86d4</testCaseGuid>
+</TestCaseEntity>

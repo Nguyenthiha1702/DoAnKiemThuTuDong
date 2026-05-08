@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Val_NH15--19 - Validate Tìm kiếm hàng hóa</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f20fcba2-6e93-492d-9c94-ead0ec79ae47</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH46---Func_HH49-Thêm mới sản phẩm với các nhóm hàng</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af4dabb3-4dcf-4173-b7fe-c881bfdc977b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8a15b15-0483-45f6-85ea-c0acf66e88a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c429e8c5-01a9-4887-be08-cff608a2c846</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Nhom'</defaultValue>
+      <description></description>
+      <id>f8a15b15-0483-45f6-85ea-c0acf66e88a4</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c429e8c5-01a9-4887-be08-cff608a2c846</id>
+      <masked>false</masked>
+      <name>tenNhom</name>
+   </variable>
+</TestCaseEntity>

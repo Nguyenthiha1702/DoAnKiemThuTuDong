@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH44- Thêm mới sp với loại Hàng hóa</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc170ceb-9eaf-40b8-9518-a560e429b725</testCaseGuid>
+</TestCaseEntity>

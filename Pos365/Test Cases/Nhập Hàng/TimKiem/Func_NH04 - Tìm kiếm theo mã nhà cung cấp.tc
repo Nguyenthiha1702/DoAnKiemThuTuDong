@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH04 - Tìm kiếm theo mã nhà cung cấp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f5f8ca03-86c1-408b-b09b-a0b0c35d031f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3eb13675-31b2-47ee-9abe-33733fb4ca2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>61266942-2f29-4ade-94d5-4be8a1d9df64</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Func04'</defaultValue>
+      <description></description>
+      <id>3eb13675-31b2-47ee-9abe-33733fb4ca2b</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+   <variable>
+      <defaultValue>'huythanh'</defaultValue>
+      <description></description>
+      <id>61266942-2f29-4ade-94d5-4be8a1d9df64</id>
+      <masked>false</masked>
+      <name>maNhaCC</name>
+   </variable>
+</TestCaseEntity>

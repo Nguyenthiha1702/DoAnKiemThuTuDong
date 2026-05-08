@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>num_SoLuong</name>
+   <tag></tag>
+   <elementGuidId>6612d727-c73e-42e7-9f41-47c7b9810873</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@ng-model=&quot;dataItem.Quantity&quot;])[${rowIndex}]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>a3b2a7ea-24de-4631-b8c8-52444a1d27c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

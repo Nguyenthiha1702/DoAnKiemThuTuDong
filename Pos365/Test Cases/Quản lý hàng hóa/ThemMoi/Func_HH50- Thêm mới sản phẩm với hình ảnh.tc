@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH50- Thêm mới sản phẩm với hình ảnh</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d28a48a-fe67-4c1d-b1f9-d335fe7c73a8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cf4fd8db-eacb-4d31-b2aa-499f37364dca</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'p1.jpg'</defaultValue>
+      <description></description>
+      <id>cf4fd8db-eacb-4d31-b2aa-499f37364dca</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+</TestCaseEntity>

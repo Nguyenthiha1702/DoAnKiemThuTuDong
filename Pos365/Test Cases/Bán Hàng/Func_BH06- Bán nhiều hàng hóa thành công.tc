@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH06- Bán nhiều hàng hóa thành công</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>07d98593-e3b9-4b57-89bd-73a2eb7a4c66</testCaseGuid>
+</TestCaseEntity>

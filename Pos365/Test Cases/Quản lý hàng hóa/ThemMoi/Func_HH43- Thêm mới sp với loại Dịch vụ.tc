@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH43- Thêm mới sp với loại Dịch vụ</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f06c91d0-e44a-4918-b1d5-fe7a3a001e23</testCaseGuid>
+</TestCaseEntity>

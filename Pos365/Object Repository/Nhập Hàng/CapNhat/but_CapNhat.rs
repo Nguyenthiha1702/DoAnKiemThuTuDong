@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>but_CapNhat</name>
+   <tag></tag>
+   <elementGuidId>b9e6e142-5c0a-4350-aaaa-77a7a0a36fe8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@ng-show=&quot;_p.has('PurchaseOrder_Create')&amp;&amp;dataItem.BranchId===$root.currentbranch.Id&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

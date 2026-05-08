@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH29- Hủy thành công phiếu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>078fe6c5-4d26-4ec4-a51e-8fcc91f0e9de</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ebf36955-533c-488e-8e90-fc6cb1276105</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Huy'</defaultValue>
+      <description></description>
+      <id>ebf36955-533c-488e-8e90-fc6cb1276105</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH16- Tìm kiếm theo Nhóm</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fc1cc8e6-ec2b-4712-93a9-bfd1250e01b7</testCaseGuid>
+</TestCaseEntity>

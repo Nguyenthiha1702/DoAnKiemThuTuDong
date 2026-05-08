@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>loginValidate</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>eef4ce20-b875-4dc1-ad16-fb7391542ee4</testSuiteGuid>
+   <testCaseLink>
+      <guid>08b41cec-bb5e-4b57-9130-d978e9f18b5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Đăng nhập/TC_Val_DN01___Val_DN19</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d64c8cd1-d225-4f7e-8bec-2153dc5e7b2e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/loginValidate</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>d64c8cd1-d225-4f7e-8bec-2153dc5e7b2e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>e0d1f974-ef08-4317-b88b-841e0df272a2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d64c8cd1-d225-4f7e-8bec-2153dc5e7b2e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>1c163975-2906-475e-b385-369301bb729b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d64c8cd1-d225-4f7e-8bec-2153dc5e7b2e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TC_id</value>
+         <variableId>5d23fe0c-390b-485c-9df6-33359bae030b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Func_DN09- Đăng nhập với vai trò nhân viên được phân quyền</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>26b11a24-540b-42eb-899b-990bb170c7be</testCaseGuid>
+</TestCaseEntity>

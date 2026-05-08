@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH24-Cập Nhật Danh Sách Hàng hóa</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d70fabc6-0f63-4b5c-9ff3-5243f8098bec</testCaseGuid>
+</TestCaseEntity>

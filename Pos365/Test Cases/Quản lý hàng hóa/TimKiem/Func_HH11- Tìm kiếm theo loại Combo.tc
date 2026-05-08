@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH11- Tìm kiếm theo loại Combo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>73d19f6b-5294-47b1-8d65-802c630f9470</testCaseGuid>
+</TestCaseEntity>

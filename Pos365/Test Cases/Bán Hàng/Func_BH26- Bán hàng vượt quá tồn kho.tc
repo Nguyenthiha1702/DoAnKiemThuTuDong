@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH26- Bán hàng vượt quá tồn kho</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca3d99bb-5abb-424e-9717-885b8abec49e</testCaseGuid>
+</TestCaseEntity>

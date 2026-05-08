@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH25- Nhập mã giảm giá không tồn tại</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9a4ca3a7-b80b-4193-8dd5-5889486a549e</testCaseGuid>
+</TestCaseEntity>

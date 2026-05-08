@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH23 - Nhập hàng với không đủ thông tin bắt buộc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d86ca42d-64da-4a0c-a7fc-a40da2e194de</testCaseGuid>
+</TestCaseEntity>

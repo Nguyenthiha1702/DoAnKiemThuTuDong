@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH08- Bán hàng với nhiều mã giảm giá</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d57934d1-28b2-4333-bff2-f547c587cf3a</testCaseGuid>
+</TestCaseEntity>

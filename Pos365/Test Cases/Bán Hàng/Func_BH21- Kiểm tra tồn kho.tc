@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH21- Kiểm tra tồn kho</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ee4ad58e-f9d0-434e-8c18-5741e83522f9</testCaseGuid>
+</TestCaseEntity>

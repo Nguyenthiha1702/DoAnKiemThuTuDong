@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Nhập hàng thành công</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>81ac75bb-7031-43a6-a5cf-13fee83bc60c</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>e9ad0be5-07d8-472f-9653-a8455b3f1114</id>
+      <masked>false</masked>
+      <name>rowIndex</name>
+   </variable>
+</TestCaseEntity>

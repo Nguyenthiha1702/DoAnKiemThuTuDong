@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH06 - Tìm kiếm Nhà cung cấp không tồn tại</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1c9f6f9c-1ced-4a6e-b793-5687d30160c1</testCaseGuid>
+</TestCaseEntity>

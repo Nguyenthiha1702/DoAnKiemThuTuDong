@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH22- Kiểm tra tất cả thông tin lưu ở DS đơn hàng</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d94fd182-78f4-45d9-8409-cf76cf24ec9d</testCaseGuid>
+</TestCaseEntity>

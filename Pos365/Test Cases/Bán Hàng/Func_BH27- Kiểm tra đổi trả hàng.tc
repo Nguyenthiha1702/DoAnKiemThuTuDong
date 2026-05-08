@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH27- Kiểm tra đổi trả hàng</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d447741-be35-48c5-96b7-171c7c096d5c</testCaseGuid>
+</TestCaseEntity>

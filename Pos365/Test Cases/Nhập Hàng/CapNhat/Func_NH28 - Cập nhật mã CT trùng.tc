@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH28 - Cập nhật mã CT trùng</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1ec4401c-ea06-441d-ba66-698bd86327e7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56108961-5c88-4959-8de0-9677fa31d8cf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34dc5b5b-bd5a-48b7-b636-fc67cce49146</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HaTestMaCT220445'</defaultValue>
+      <description></description>
+      <id>56108961-5c88-4959-8de0-9677fa31d8cf</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+   <variable>
+      <defaultValue>'HoanThanh222643'</defaultValue>
+      <description></description>
+      <id>34dc5b5b-bd5a-48b7-b636-fc67cce49146</id>
+      <masked>false</masked>
+      <name>maCTMoi</name>
+   </variable>
+</TestCaseEntity>

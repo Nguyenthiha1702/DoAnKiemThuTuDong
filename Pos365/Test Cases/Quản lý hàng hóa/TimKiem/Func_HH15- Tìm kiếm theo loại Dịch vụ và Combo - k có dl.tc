@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH15- Tìm kiếm theo loại Dịch vụ và Combo - k có dl</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f188484b-307b-4110-943e-85bb4233dee9</testCaseGuid>
+</TestCaseEntity>

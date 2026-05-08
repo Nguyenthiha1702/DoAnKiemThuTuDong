@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH02- Tìm kiếm khách hàng không tồn tại</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5372bdfc-6060-4a68-aa8f-bcdb628049e7</testCaseGuid>
+</TestCaseEntity>

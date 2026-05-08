@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH27_Cập nhật với trạng thái Xử lý sang Hoàn thành</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aaf0601a-12ce-445f-bfef-645fd60a626a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d6d6a71-70eb-4817-b8a1-b0a24d063c9a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'FixTT'</defaultValue>
+      <description></description>
+      <id>6d6d6a71-70eb-4817-b8a1-b0a24d063c9a</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+</TestCaseEntity>

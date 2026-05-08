@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH17 Tìm kiếm theo Tồn kho-Còn hàng</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>300f518c-394e-450e-adbd-d111fbe6b840</testCaseGuid>
+</TestCaseEntity>

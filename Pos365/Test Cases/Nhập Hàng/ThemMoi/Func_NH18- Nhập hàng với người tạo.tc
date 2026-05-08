@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH18- Nhập hàng với người tạo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c618b059-4df7-4cdd-b5e3-5fadb630fcf3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0966786b-6d50-40ac-af5f-2ebeacc75bbf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d5950d1-8648-4fff-963e-5ad19af4b3a8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12583c33-0a5f-48b6-b8eb-0df8de46af6f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hatest'</defaultValue>
+      <description></description>
+      <id>0966786b-6d50-40ac-af5f-2ebeacc75bbf</id>
+      <masked>false</masked>
+      <name>maCT</name>
+   </variable>
+   <variable>
+      <defaultValue>'huythanh'</defaultValue>
+      <description></description>
+      <id>5d5950d1-8648-4fff-963e-5ad19af4b3a8</id>
+      <masked>false</masked>
+      <name>nhaCungCap</name>
+   </variable>
+   <variable>
+      <defaultValue>'20/03/2026 15:09'</defaultValue>
+      <description></description>
+      <id>12583c33-0a5f-48b6-b8eb-0df8de46af6f</id>
+      <masked>false</masked>
+      <name>ngayNhap</name>
+   </variable>
+</TestCaseEntity>

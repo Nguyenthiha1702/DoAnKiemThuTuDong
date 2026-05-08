@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH08- Tìm kiếm theo thời gian Hôm nay</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42a19aaf-3e08-463d-8f7f-84a52f4ac931</testCaseGuid>
+</TestCaseEntity>

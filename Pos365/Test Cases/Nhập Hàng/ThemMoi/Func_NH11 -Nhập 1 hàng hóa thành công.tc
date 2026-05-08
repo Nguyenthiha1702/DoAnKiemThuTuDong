@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH11 -Nhập 1 hàng hóa thành công</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3822ac9-cc81-4e70-bca7-52497cece7f6</testCaseGuid>
+</TestCaseEntity>

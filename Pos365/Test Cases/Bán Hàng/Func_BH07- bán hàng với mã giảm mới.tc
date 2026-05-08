@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH07- bán hàng với mã giảm mới</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>390ed7f5-c1be-4ae9-b042-0b322f69073d</testCaseGuid>
+</TestCaseEntity>

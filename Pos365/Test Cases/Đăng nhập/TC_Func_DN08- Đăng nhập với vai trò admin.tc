@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Func_DN08- Đăng nhập với vai trò admin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a373ff8-7230-45d6-845d-1861bc1dc5da</testCaseGuid>
+</TestCaseEntity>

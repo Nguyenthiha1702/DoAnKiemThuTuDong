@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH01- Tìm kiếm theo Mã hàng hóa</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4437174b-29da-4b88-9021-86f1550c4f20</testCaseGuid>
+</TestCaseEntity>

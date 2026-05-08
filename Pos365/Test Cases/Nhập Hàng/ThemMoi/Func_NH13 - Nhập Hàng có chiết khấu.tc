@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH13 - Nhập Hàng có chiết khấu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8623e6fd-d7ca-4a5e-b005-f0805f9a5d06</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ab41744-ce44-42fb-a93b-6c1587a9b74b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'10000'</defaultValue>
+      <description></description>
+      <id>4ab41744-ce44-42fb-a93b-6c1587a9b74b</id>
+      <masked>false</masked>
+      <name>chietKhau</name>
+   </variable>
+</TestCaseEntity>

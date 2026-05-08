@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH10- Bán hàng với chiết khấu giá tiền</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>229881e2-5ad4-461d-b834-37c4b753fb13</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f1214301-e136-4397-ab91-e70317192e66</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>f1214301-e136-4397-ab91-e70317192e66</id>
+      <masked>false</masked>
+      <name>tienChietKhau</name>
+   </variable>
+</TestCaseEntity>

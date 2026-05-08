@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_HH03- Tìm kiếm Mã hàng hóa không tồn tại</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2219497-e3d4-4fbe-af5b-0fa2421f6d38</testCaseGuid>
+</TestCaseEntity>

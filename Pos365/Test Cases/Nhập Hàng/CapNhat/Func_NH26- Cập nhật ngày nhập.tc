@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH26- Cập nhật ngày nhập</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e05763f-6784-430c-93da-714e1f086fd0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>373cddea-7266-40cc-bc7e-ef00cf13b03d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71f7bf02-d30b-45d9-883e-60f2787fc891</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'NH290426-0004'</defaultValue>
+      <description></description>
+      <id>373cddea-7266-40cc-bc7e-ef00cf13b03d</id>
+      <masked>false</masked>
+      <name>maCT</name>
+   </variable>
+   <variable>
+      <defaultValue>'20/03/2026 15:09'</defaultValue>
+      <description></description>
+      <id>71f7bf02-d30b-45d9-883e-60f2787fc891</id>
+      <masked>false</masked>
+      <name>ngayNhap</name>
+   </variable>
+</TestCaseEntity>

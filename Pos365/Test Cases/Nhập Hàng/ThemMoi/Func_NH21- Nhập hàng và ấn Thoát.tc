@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_NH21- Nhập hàng và ấn Thoát</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fbff5f45-2642-4403-8e8d-7570afc99aa0</testCaseGuid>
+</TestCaseEntity>

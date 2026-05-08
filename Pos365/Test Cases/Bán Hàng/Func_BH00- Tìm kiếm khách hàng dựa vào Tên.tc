@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH00- Tìm kiếm khách hàng dựa vào Tên</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d368a0d-cc0a-4202-90e1-01e7d9d3069c</testCaseGuid>
+</TestCaseEntity>

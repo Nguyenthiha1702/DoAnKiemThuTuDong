@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Func_BH05- Bán 1 hàng hóa thành công</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>130ba7a8-ee0e-4c00-8ec6-4a4a337b8c3d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e1949b2-63ac-49b1-9a15-8910b5a9d135</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab67183a-edcf-47eb-a6ff-3affff30e2ad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'add01212537'</defaultValue>
+      <description></description>
+      <id>1e1949b2-63ac-49b1-9a15-8910b5a9d135</id>
+      <masked>false</masked>
+      <name>ma</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>ab67183a-edcf-47eb-a6ff-3affff30e2ad</id>
+      <masked>false</masked>
+      <name>soLuong</name>
+   </variable>
+</TestCaseEntity>
