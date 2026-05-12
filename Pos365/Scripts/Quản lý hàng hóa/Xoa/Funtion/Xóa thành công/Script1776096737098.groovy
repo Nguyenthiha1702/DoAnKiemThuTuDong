@@ -20,18 +20,24 @@ import org.openqa.selenium.Keys as Keys
 import com.pages.ProductPage
 WebUI.callTestCase(findTestCase('common/login'), [:], FailureHandling.STOP_ON_FAILURE)
 ProductPage productPage = new ProductPage()
+productPage.navigateToCreate()
+String suffix = new Date().format('HHmmss')
+String Ma_HH = ma +suffix
+productPage.createProduct(Ma_HH, ten, giaBan, giaVon, tonKho, dvt)
+productPage.clickSave()
+WebUI.delay(2)
 productPage.navigateToList()
-println "Đang tìm kiếm mã: " + ma
-productPage.searchProductByMa(ma)
+println "Đang tìm kiếm mã: " + Ma_HH
+productPage.searchProductByMa(Ma_HH)
 productPage.clickDelete()
 productPage.clickYes()
 boolean isVisible = WebUI.waitForElementVisible(findTestObject('Hàng hóa/Xoa/tb_Xoa'), 5, FailureHandling.OPTIONAL)
 productPage.navigateToList()
-productPage.searchProductByMa(ma)
+productPage.searchProductByMa(Ma_HH)
 boolean isNotExist = WebUI.verifyElementNotPresent(findTestObject('Hàng hóa/XemChiTiet/txt_MaHangHoaCT'), 5)
 
 if (isNotExist) {
-	WebUI.comment("PASS: Sản phẩm mã " + ma + " đã được xóa và không còn tìm thấy.")
+	WebUI.comment("PASS: Sản phẩm mã " + Ma_HH + " đã được xóa và không còn tìm thấy.")
 } else {
 	WebUI.takeScreenshot()
 	WebUI.verifyElementNotPresent(findTestObject('Hàng hóa/XemChiTiet/txt_MaHangHoaCT'), 1, FailureHandling.STOP_ON_FAILURE)

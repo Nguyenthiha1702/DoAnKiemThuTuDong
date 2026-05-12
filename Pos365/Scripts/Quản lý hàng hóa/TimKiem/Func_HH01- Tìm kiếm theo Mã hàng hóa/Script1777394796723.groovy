@@ -11,8 +11,5 @@ productPage.navigateToList()
 String maHH = "Hatest17021"
 
 productPage.searchProductByMa(maHH)
-def to = findTestObject('Hàng hóa/XemChiTiet/row_MaHangDauTien')
-boolean isVisible = WebUI.waitForElementVisible(to, 5, FailureHandling.OPTIONAL)
-assert !isVisible : "Vẫn hiển thị mã hàng không tồn tại: " + maHH
-
-WebUI.comment("Không hiển thị mã hàng")
+WebUI.delay(2)
+productPage.verifyFirstProductCode(maHH)

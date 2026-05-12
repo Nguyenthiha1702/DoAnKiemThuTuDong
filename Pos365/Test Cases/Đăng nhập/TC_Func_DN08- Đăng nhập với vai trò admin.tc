@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>2a373ff8-7230-45d6-845d-1861bc1dc5da</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e3d13315-8e88-401c-9277-47b59e4237f7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ed595e12-9020-4870-9d3f-238b4d78113c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d21e663d-d18f-48ba-adad-9e258ad65eb2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://hvtester.pos365.vn/Signin'</defaultValue>
+      <description></description>
+      <id>e3d13315-8e88-401c-9277-47b59e4237f7</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>ed595e12-9020-4870-9d3f-238b4d78113c</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'999999'</defaultValue>
+      <description></description>
+      <id>d21e663d-d18f-48ba-adad-9e258ad65eb2</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

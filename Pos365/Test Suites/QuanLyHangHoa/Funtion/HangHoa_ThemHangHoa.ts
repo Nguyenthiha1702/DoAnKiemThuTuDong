@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Hàng hóa-Thêm mới hàng hóa</name>
+   <name>HangHoa_ThemHangHoa</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>1</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>8d63e7ef-efb5-4455-84b3-bf4f8ece8e63</testSuiteGuid>
+   <testSuiteGuid>19f97562-4ad4-4550-ab5b-fa03010ed4cc</testSuiteGuid>
    <testCaseLink>
-      <guid>e391c0a9-bbf4-4f5b-94ac-9dd84c38d625</guid>
+      <guid>d0255a94-10b6-42ed-a810-40f08feb542c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH42-Thêm mới sản phẩm thành công</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -49,34 +49,34 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c8b649c8-0c1e-48b6-bb80-e280021c5ed0</guid>
+      <guid>788484c3-9069-4712-a937-44fe48ebb6fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH43- Thêm mới sp với loại Dịch vụ</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b5e370f5-5eda-48a6-83ee-d68cee4d127d</guid>
+      <guid>e25461ec-7a84-43fb-af6b-b1600ba6d2ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH44- Thêm mới sp với loại Hàng hóa</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>83651cfb-db61-47fc-9a11-da8ed0f37edf</guid>
+      <guid>e38d0785-6c8f-4ae1-a0b7-877760de1f2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH45- Thêm mới sp với loại Combo</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3739992c-27b1-4388-b061-198626201161</guid>
+      <guid>98b5766f-d868-4d52-8502-4a93debc4a15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH46---Func_HH49-Thêm mới sản phẩm với các nhóm hàng</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>756cb6a1-6e3e-48f0-a784-011bb7346692</id>
+         <id>ce6ba3f1-a9df-40cc-bab1-027d6eb7d3bc</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -91,18 +91,18 @@
          <variableId>f8a15b15-0483-45f6-85ea-c0acf66e88a4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>756cb6a1-6e3e-48f0-a784-011bb7346692</testDataLinkId>
+         <testDataLinkId>ce6ba3f1-a9df-40cc-bab1-027d6eb7d3bc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Nhóm</value>
          <variableId>c429e8c5-01a9-4887-be08-cff608a2c846</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f75553c3-eeeb-4e4b-9cf4-279e84eed349</guid>
+      <guid>0451e723-d26a-49df-a358-a942812e4cdb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH50- Thêm mới sản phẩm với hình ảnh</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -111,11 +111,11 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>683164e7-1b21-4018-a54f-e7b157aa1738</guid>
+      <guid>2a3a3c2b-5b94-4f2e-8946-53afee7acf90</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH51- Kiểm tra tự sinh mã hàng</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -154,11 +154,11 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ee465369-866b-444b-af0f-514109af89c6</guid>
+      <guid>c9cef094-4aab-413d-8943-99d0d51edc48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH52_Kiểm tra bỏ trống trường bắt buộc</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -197,13 +197,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6332a5cd-dadb-4d28-a4bc-e6b858064962</guid>
+      <guid>fd76d837-d665-4efb-8762-4f260166fe82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH54--59- Kiểm tra không điền đầy đủ thông tin</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0b725e73-5419-42e4-8fe3-fcd3d7e63f3b</id>
+         <id>f24c65f1-7b92-40f2-b1ab-782398a89db3</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -218,42 +218,42 @@
          <variableId>1147060b-13c8-4892-9d5f-4e48c1496c0a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0b725e73-5419-42e4-8fe3-fcd3d7e63f3b</testDataLinkId>
+         <testDataLinkId>f24c65f1-7b92-40f2-b1ab-782398a89db3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>giaBan</value>
          <variableId>5207376f-4d7e-47fc-a54b-3742ddd2befb</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0b725e73-5419-42e4-8fe3-fcd3d7e63f3b</testDataLinkId>
+         <testDataLinkId>f24c65f1-7b92-40f2-b1ab-782398a89db3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>giaVon</value>
          <variableId>76136b9d-b26c-4497-8d95-db35c196ae12</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0b725e73-5419-42e4-8fe3-fcd3d7e63f3b</testDataLinkId>
+         <testDataLinkId>f24c65f1-7b92-40f2-b1ab-782398a89db3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>tonKho</value>
          <variableId>0c977b40-4eb4-420c-893a-6f2c4b633167</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0b725e73-5419-42e4-8fe3-fcd3d7e63f3b</testDataLinkId>
+         <testDataLinkId>f24c65f1-7b92-40f2-b1ab-782398a89db3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>dvt</value>
          <variableId>98465b47-f1ae-4172-a113-db57a9436b5c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0b725e73-5419-42e4-8fe3-fcd3d7e63f3b</testDataLinkId>
+         <testDataLinkId>f24c65f1-7b92-40f2-b1ab-782398a89db3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>tc_id</value>
          <variableId>ce7d974d-a960-44fc-a76e-8b31e87b1f3c</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>32850712-8d86-4687-9dff-5ab319a2f6eb</guid>
+      <guid>d98e8178-b51d-4d6b-8caa-95657b81a134</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH60--Kiểm tra khi click Thoát</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -292,11 +292,11 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>05a8cb88-910a-42f3-a14c-5b8eebee5c96</guid>
+      <guid>e3ca3c79-dfbd-42dd-aef7-b89bad7e65ab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH61-Kiểm tra thêm mới với button Lưu và Thêm Mới</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -341,11 +341,11 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fb3f193b-7abc-4cdc-91c9-f709390ed078</guid>
+      <guid>044abd30-c66a-4fa6-9b91-fac16691fca1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Quản lý hàng hóa/ThemMoi/Func_HH62-Kiểm tra thêm mới với button Lưu và Copy</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

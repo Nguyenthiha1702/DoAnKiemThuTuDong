@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>thêm Khách hàng thành công 1</name>
+   <name>openGhiChu</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>321fb763-cb2a-4c24-a222-6ad0d6be86d4</testCaseGuid>
+   <testCaseGuid>ba547037-1c12-4e47-9fb9-44d6b0777791</testCaseGuid>
 </TestCaseEntity>

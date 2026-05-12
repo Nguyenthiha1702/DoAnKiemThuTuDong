@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>26b11a24-540b-42eb-899b-990bb170c7be</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>799da99e-22c2-4220-a772-ef1f5755d165</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db98d4ab-5a52-48de-9764-a61cb6045cec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68d88761-eb30-458a-8435-c9d63b52a4bc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://hvtester.pos365.vn/Signin'</defaultValue>
+      <description></description>
+      <id>799da99e-22c2-4220-a772-ef1f5755d165</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'ngthiha2004'</defaultValue>
+      <description></description>
+      <id>db98d4ab-5a52-48de-9764-a61cb6045cec</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nth1702@'</defaultValue>
+      <description></description>
+      <id>68d88761-eb30-458a-8435-c9d63b52a4bc</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

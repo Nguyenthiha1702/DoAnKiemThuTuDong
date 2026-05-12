@@ -4,7 +4,8 @@ import com.pages.SellPage
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import org.openqa.selenium.Keys
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
+import java.awt.Robot
+import java.awt.event.KeyEvent
 SellPage sellPage = new SellPage()
 
 String maCT = "CT" + new Date().format("HHmmss")
@@ -34,8 +35,6 @@ double tongCong = sellPage.getTongCong()
 sellPage.clickSave()
 
 WebUI.delay(2) 
-import java.awt.Robot
-import java.awt.event.KeyEvent
 
 Robot robot = new Robot()
 robot.delay(2000)

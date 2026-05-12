@@ -46,7 +46,7 @@ double diff = Math.abs(expected - tongCongUI)
 
 if (diff > 2) {
 	WebUI.takeScreenshot("Loi_Voucher_" + maGiamGia)
-	assert false : "❌ Sai tổng cộng | expected=" + expected + " | UI=" + tongCongUI
+	assert false : "Sai tổng cộng | expected=" + expected + " | UI=" + tongCongUI
 } else {
-	WebUI.comment("✅ PASS - Voucher hoạt động đúng")
+	WebUI.comment(" PASS - Voucher hoạt động đúng")
 }

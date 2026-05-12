@@ -52,20 +52,6 @@ public class ProductPage {
 
 
 
-
-
-
-	//	def uploadImage(String filePath) {
-	//
-	//		WebUI.click(findTestObject('Hàng hóa/ThemMoi/ChiTiet/but_HinhAnh'))
-	//
-	//		WebUI.uploadFile(
-	//				findTestObject('Hàng hóa/ThemMoi/ChiTiet/upload_HinhAnh'),
-	//				filePath
-	//				)
-	//
-	//		WebUI.click(findTestObject('Hàng hóa/ThemMoi/but_Luu'))
-	//	}
 	def uploadImage(String fileName) {
 		String filePath = RunConfiguration.getProjectDir() + "/Data Files/Product/" + fileName
 		WebUI.click(findTestObject('Object Repository/Hàng hóa/ThemMoi/ChiTiet/but_HinhAnh'))
@@ -139,19 +125,6 @@ public class ProductPage {
 		WebUI.waitForPageLoad(2)
 	}
 
-
-	//	def searchProductByMa(String ma) {
-	//		def obj = findTestObject('Hàng hóa/TimKiem/Txt_TimKiemTen')
-	//
-	//		WebUI.waitForElementVisible(obj, 10)
-	//		WebUI.waitForElementClickable(obj, 10)
-	//
-	//		WebUI.click(obj)
-	//		WebUI.clearText(obj)
-	//		WebUI.setText(obj, ma)
-	//		WebUI.sendKeys(obj, Keys.chord(Keys.ENTER))
-	//		WebUI.delay(1)
-	//	}
 
 	def searchProductByMa(String ma) {
 		def obj = findTestObject('Hàng hóa/TimKiem/Txt_TimKiemTen')

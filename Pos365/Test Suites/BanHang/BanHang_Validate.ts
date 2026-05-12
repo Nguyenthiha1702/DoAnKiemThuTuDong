@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>BanHang_Validate</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>e32634c3-e3a0-4b42-9b30-ceba9c7b341b</testSuiteGuid>
+   <testCaseLink>
+      <guid>479343cf-3d2b-46ad-8992-a11afccbe524</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/common/loginSellPage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>962b3ce8-4ea5-4533-b3c0-f882f72dd643</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bán Hàng/Validate/Val_BH01--07- Validate Tìm kiếm</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2635e4c8-eaef-43b1-821b-55993b656ee3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Sell/Validate Tìm kiếm</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2635e4c8-eaef-43b1-821b-55993b656ee3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TC_id</value>
+         <variableId>42642482-a9cb-45f7-bd78-6305bb85fd05</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2635e4c8-eaef-43b1-821b-55993b656ee3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>tìm kiếm</value>
+         <variableId>77d2da08-736b-4cc9-815b-b014eacd475d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2635e4c8-eaef-43b1-821b-55993b656ee3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expect</value>
+         <variableId>5b7423a5-76c2-4d53-b164-0705ee19c672</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b0833ad8-008a-40c5-bd35-58d677ec70d9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bán Hàng/Validate/Val_BH08--17- Validate Mã Chứng Từ</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>28806f00-1d3e-4bc1-8184-38ee57021903</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Sell/Validate Mã chứng từ</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>28806f00-1d3e-4bc1-8184-38ee57021903</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TC_id</value>
+         <variableId>0b57df2c-955b-4298-9d50-ebd1b7e8203f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28806f00-1d3e-4bc1-8184-38ee57021903</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MaCT</value>
+         <variableId>d126b4a4-9cc9-4ab7-8fa3-263dcc6ebf1c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28806f00-1d3e-4bc1-8184-38ee57021903</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expect</value>
+         <variableId>dcc678cc-9fe5-4758-85d1-d33a5e0b065a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>791dc9de-2923-4679-afc1-b7e87f509255</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/common/openGhiChu</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>07ab7716-906d-4e55-bd01-6e9360389b94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bán Hàng/Validate/Val_BH18--26- Validate Ghi chú</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8ca8eee7-1283-4663-9934-96b4d9bc533e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Sell/Validate Ghi chú</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>8ca8eee7-1283-4663-9934-96b4d9bc533e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TC_id</value>
+         <variableId>b5d0a2b3-180a-4a8b-8547-88a1a21806d7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ca8eee7-1283-4663-9934-96b4d9bc533e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ghi chú</value>
+         <variableId>4c13285c-03b2-40a2-b587-cb7c4a1666a8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ca8eee7-1283-4663-9934-96b4d9bc533e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expect</value>
+         <variableId>d1cdb38c-6f67-4437-a24d-9f3ad76f8d3f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>842dc3b7-717d-49c2-993d-65ce6360ec90</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bán Hàng/Validate/Val_BH27--32 Validate Giá Bán</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b23d016a-e43c-448b-91e6-3e5d4ce365ab</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Purchase/Validate Giá bán</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b23d016a-e43c-448b-91e6-3e5d4ce365ab</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TC_id</value>
+         <variableId>b590e12f-511a-4b25-a38b-cf866b63820c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b23d016a-e43c-448b-91e6-3e5d4ce365ab</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Giá Bán </value>
+         <variableId>b9d62d08-d4bc-4cb5-bff4-133ad05c7887</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b23d016a-e43c-448b-91e6-3e5d4ce365ab</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expect</value>
+         <variableId>11bb5010-de6f-42fa-bd45-ce7574ec5656</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c3811e41-f8a3-4e11-8814-07a458b82d6e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bán Hàng/Validate/Val_BH33--38- Validate Số lượng</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>024b7229-b820-4f00-b8a8-d16cc56ad8e7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Sell/Validate Số lượng</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>024b7229-b820-4f00-b8a8-d16cc56ad8e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TC_id</value>
+         <variableId>6e1ce86c-0fca-427b-a8b5-604b11919d42</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>024b7229-b820-4f00-b8a8-d16cc56ad8e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Giá Bán </value>
+         <variableId>935f2918-de2e-4cac-8b71-3b07beb624f9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>024b7229-b820-4f00-b8a8-d16cc56ad8e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expect</value>
+         <variableId>f69ebfd6-52ee-49be-88db-733991737cce</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>89d209b3-5781-48b4-89d3-9b8bf5c61a2b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bán Hàng/Validate/Val_BH39--45- Validate Mã Khách Hàng</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ea68bd0f-655c-4d1f-aae3-348861cd214e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Sell/Validate Mã khách hàng</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>ea68bd0f-655c-4d1f-aae3-348861cd214e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TC_id</value>
+         <variableId>41ce8254-b376-4a59-9154-040c9b0407fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ea68bd0f-655c-4d1f-aae3-348861cd214e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Mã khách hàng</value>
+         <variableId>d8f43231-73ce-41c2-a526-0f81ede9644b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ea68bd0f-655c-4d1f-aae3-348861cd214e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expect</value>
+         <variableId>8cfa0208-9afb-4973-b255-9a7a6e9766eb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>050ac56b-9d53-40bd-850d-8f6b6e49a7c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bán Hàng/Validate/Val_BH46--52- Validate Mã Giảm giá</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8c0ad45e-f028-4b05-a5e2-ca1756d05371</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Sell/Validate Mã giảm giá</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>8c0ad45e-f028-4b05-a5e2-ca1756d05371</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TC_id</value>
+         <variableId>da3812a5-9c62-428f-86f2-532f9e16bba0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8c0ad45e-f028-4b05-a5e2-ca1756d05371</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Mã giảm giá</value>
+         <variableId>8e13b65e-429e-4fc9-a653-11b61ad527ca</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8c0ad45e-f028-4b05-a5e2-ca1756d05371</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expect</value>
+         <variableId>829097d4-1474-4a1a-8e26-e07d869a2408</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

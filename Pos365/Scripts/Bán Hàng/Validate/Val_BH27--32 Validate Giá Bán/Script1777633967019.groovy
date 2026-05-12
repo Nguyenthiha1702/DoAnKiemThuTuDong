@@ -24,5 +24,4 @@ WebUI.comment("Running: " + tc_id)
 String ma="SP001"
 String soLuong="1"
 sellPage.timVaThemSanPham( ma, soLuong)
-TestObject donGia = findTestObject("Bán Hàng/TaoDonHang/LuoiDanhSach/row1_DonGia")
-sellPage.validateNumber('Bán Hàng/TaoDonHang/LuoiDanhSach/row1_DonGia',Gia,expect.toBoolean())
+sellPage.validateNumber("Bán Hàng/TaoDonHang/LuoiDanhSach/row1_DonGia",Gia,expect.toBoolean())

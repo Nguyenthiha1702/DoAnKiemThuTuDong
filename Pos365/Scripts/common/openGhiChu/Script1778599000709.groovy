@@ -17,9 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('common/login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('common/addCustomers'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Khách hàng/thêm mới/but_Luu'))
-
+WebUI.click(findTestObject("Bán hàng/TaoDonHang/GhiChu/but_GhiChu"))

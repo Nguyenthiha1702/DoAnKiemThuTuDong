@@ -21,5 +21,4 @@ import com.pages.SellPage
 SellPage sellPage = new SellPage()
 
 WebUI.comment("Running: " + tc_id)
-TestObject Sl = findTestObject("Bán Hàng/TaoDonHang/LuoiDanhSach/row1_SoLuong")
-sellPage.validateNumber('Bán Hàng/TaoDonHang/LuoiDanhSach/row1_SoLuong',Sl,expect.toBoolean())
+sellPage.validateNumber("Bán Hàng/TaoDonHang/LuoiDanhSach/row1_SoLuong",soluong,expect.toBoolean())

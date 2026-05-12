@@ -7,6 +7,8 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 WebUI.callTestCase(findTestCase('common/login'), [:], FailureHandling.STOP_ON_FAILURE)
 ProductPage productPage = new ProductPage()
 productPage.navigateToCreate()
+String suffix = new Date().format('HHmmss')
+String Ma_HH = "maHH"+suffix
 productPage.createProduct(Ma_HH, Ten_HH, GiaBan, GiaVon, TonKho, DVT)
 productPage.clickSave()
 WebUI.delay(2)

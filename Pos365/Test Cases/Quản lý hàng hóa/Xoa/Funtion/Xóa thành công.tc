@@ -12,11 +12,76 @@
       <value></value>
       <variableId>6341daf6-9629-48a2-b272-0325f2b600e5</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>520655e6-5f06-4230-9532-745a20b0a9dc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26390995-3388-47d5-b009-cc7eb58ec4c2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7c7f8aa-bb7c-4565-9039-f8e7c5406b05</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1efd8b48-e0f5-409d-84ab-637d0e66a1b8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2428df6e-1897-490c-9efc-a8b0f6cdb7bc</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'add02205327'</defaultValue>
+      <defaultValue>'add'</defaultValue>
       <description></description>
       <id>6341daf6-9629-48a2-b272-0325f2b600e5</id>
       <masked>false</masked>
       <name>ma</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bánh ngọt'</defaultValue>
+      <description></description>
+      <id>520655e6-5f06-4230-9532-745a20b0a9dc</id>
+      <masked>false</masked>
+      <name>ten</name>
+   </variable>
+   <variable>
+      <defaultValue>'100000'</defaultValue>
+      <description></description>
+      <id>26390995-3388-47d5-b009-cc7eb58ec4c2</id>
+      <masked>false</masked>
+      <name>giaBan</name>
+   </variable>
+   <variable>
+      <defaultValue>'90000'</defaultValue>
+      <description></description>
+      <id>f7c7f8aa-bb7c-4565-9039-f8e7c5406b05</id>
+      <masked>false</masked>
+      <name>giaVon</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>1efd8b48-e0f5-409d-84ab-637d0e66a1b8</id>
+      <masked>false</masked>
+      <name>tonKho</name>
+   </variable>
+   <variable>
+      <defaultValue>'cái'</defaultValue>
+      <description></description>
+      <id>2428df6e-1897-490c-9efc-a8b0f6cdb7bc</id>
+      <masked>false</masked>
+      <name>dvt</name>
    </variable>
 </TestCaseEntity>

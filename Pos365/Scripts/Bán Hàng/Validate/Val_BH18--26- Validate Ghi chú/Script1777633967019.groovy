@@ -21,6 +21,5 @@ import com.pages.SellPage
 SellPage sellPage = new SellPage()
 
 WebUI.comment("Running: " + tc_id)
-WebUI.click(findTestObject("Bán hàng/TaoDonHang/GhiChu/but_GhiChu"))
 WebUI.setText(findTestObject('Bán hàng/TaoDonHang/GhiChu/txt_GhiChu'),ghiChu)
 sellPage.validateTextBox('Bán hàng/TaoDonHang/GhiChu/txt_GhiChu',ghiChu,expect.toBoolean())

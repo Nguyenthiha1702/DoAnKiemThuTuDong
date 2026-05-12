@@ -10,8 +10,8 @@ productPage.navigateToList()
 String ma = "Hatest17022"
 WebUI.click(findTestObject('Hàng hóa/TimKiem/cbox_HangHoa'))
 productPage.searchProductByMa(ma)
-def to = findTestObject('Hàng hóa/XemChiTiet/row_MaHangDauTien')
-boolean isVisible = WebUI.waitForElementVisible(to, 1, FailureHandling.OPTIONAL)
-assert !isVisible : "Vẫn hiển thị mã hàng không tồn tại: " + ma
+String actual = WebUI.getText(findTestObject('Hàng hóa/XemChiTiet/row_MaHangDauTien')).trim()
+assert !actual.equals(ma) :
+	"Vẫn hiển thị mã hàng không tồn tại: ${ma}"
 
 WebUI.comment("Không hiển thị mã hàng")

@@ -8,4 +8,5 @@ WebUI.callTestCase(findTestCase("common/login"), [:])
 productPage.navigateToList()
 String tenHH = "Máy tính acer 12"
 productPage.searchProductByMa(tenHH)
+WebUI.delay(1)
 productPage.verifyFirstProductName(tenHH)
