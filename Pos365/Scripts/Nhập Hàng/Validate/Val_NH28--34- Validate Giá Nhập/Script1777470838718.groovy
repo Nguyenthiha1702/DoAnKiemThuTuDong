@@ -19,11 +19,6 @@ import org.openqa.selenium.Keys as Keys
 import com.pages.PurchasePage
 
 PurchasePage purchasePage = new PurchasePage()
-purchasePage.moManHinhThemHang()
 WebUI.comment("Running: " + tc_id)
-String tenHang = "SP001"
-String soLuong = "2"
-String giaBan = "10000"
-purchasePage.themSanPhamDayDu(tenHang, soLuong,giaBan)
-WebUI.setText(findTestObject('Nhập Hàng/ThemMoi/txt_SoLuongRow1'),giaNhap)
-purchasePage.validateNumber('Nhập Hàng/ThemMoi/txt_GiaNhapRow1', giaNhap, expect.toBoolean())
+WebUI.setText(findTestObject('Nhập Hàng/ThemMoi/row1_GiaNhap'),giaNhap)
+purchasePage.validateNumber('Nhập Hàng/ThemMoi/row1_GiaNhap', giaNhap, expect.toBoolean())

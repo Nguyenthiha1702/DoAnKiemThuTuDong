@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Bán hàng thành công</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2308a2cc-b3cb-4e76-9974-e57a2ceb7a5d</testCaseGuid>
-</TestCaseEntity>

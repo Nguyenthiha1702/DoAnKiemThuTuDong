@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>f20fcba2-6e93-492d-9c94-ead0ec79ae47</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2fba834-63b5-476b-b583-cf2d377073c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce93f3ae-0b82-41ab-90ed-91606cc1b438</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>addc7da4-7eeb-4146-92ca-b70d8663f292</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e2fba834-63b5-476b-b583-cf2d377073c8</id>
+      <masked>false</masked>
+      <name>tc_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ce93f3ae-0b82-41ab-90ed-91606cc1b438</id>
+      <masked>false</masked>
+      <name>timKiem</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>addc7da4-7eeb-4146-92ca-b70d8663f292</id>
+      <masked>false</masked>
+      <name>expect</name>
+   </variable>
 </TestCaseEntity>

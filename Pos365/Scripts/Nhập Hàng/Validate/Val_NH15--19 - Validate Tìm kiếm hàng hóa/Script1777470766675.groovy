@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 import com.pages.PurchasePage
 
 PurchasePage purchasePage = new PurchasePage()
-purchasePage.moManHinhThemHang()
 WebUI.comment("Running: " + tc_id)
 WebUI.setText(findTestObject('Nhập Hàng/ThemMoi/txt_TimKiem'),timKiem)
-purchasePage.validateTextBox('Nhập Hàng/ThemMoi/tct_TimKiem',timKiem,expect.toBoolean())
+purchasePage.validateTextBox('Nhập Hàng/ThemMoi/tXt_TimKiem',timKiem,expect.toBoolean())

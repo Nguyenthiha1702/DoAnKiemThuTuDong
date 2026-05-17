@@ -32,7 +32,7 @@ class LoginPage {
 
 	static void login(String url, String username, String password) {
 		ensureBrowser()
-
+		WebUI.deleteAllCookies()
 		WebUI.navigateToUrl(url)
 		WebUI.maximizeWindow()
 
@@ -84,7 +84,7 @@ class LoginPage {
 
 			} else if (expected == 'FAIL') {
 
-				def messErr = findTestObject('Đăng Nhập/mess_err')
+				def messErr = findTestObject('Đăng Nhập/mess_err', ['message': expectedMessage])
 				boolean isVisible = WebUI.waitForElementVisible(messErr, 5)
 
 				if (!isVisible) {
@@ -140,11 +140,7 @@ class LoginPage {
 			TestObject obj = findTestObject(testObjectPath)
 	
 			WebUI.waitForElementVisible(obj, 10)
-	
-			// nhập password
 			WebUI.setText(obj, input)
-	
-			// lấy giá trị thực tế
 			String actual = WebUI.getAttribute(obj, 'value') ?: ''
 	
 			int expectedLength = input.length()

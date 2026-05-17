@@ -279,23 +279,7 @@ public class SellPage {
 		}
 	}
 
-	//	def void verifyTienChietKhau(double valueNhap, boolean isPercent) {
-	//
-	//		double tongThanhTien = getTongThanhTien()
-	//		double tienCKUI = getTienChietKhau()
-	//
-	//		double expected = isPercent ? (tongThanhTien * valueNhap / 100) : valueNhap
-	//
-	//		expected = Math.min(expected, tongThanhTien)
-	//
-	//		WebUI.comment("Expected CK = " + expected + " | UI = " + tienCKUI)
-	//
-	//		if (Math.abs(expected - tienCKUI) > 1) {
-	//			WebUI.takeScreenshot("Loi_ChietKhau")
-	//			assert false : "Sai chiết khấu | expected=" + expected + " | UI=" + tienCKUI
-	//		}
-	//	}
-
+	
 	def void verifyTienChietKhau(double valueNhap, boolean isPercent) {
 
 		double tongThanhTien = getTongThanhTien()
@@ -340,18 +324,6 @@ public class SellPage {
 		}
 	}
 
-	//	def void verifyTongCong(double tongThanhTien, double tienChietKhau, double tienGiamGia) {
-	//
-	//		double tongCongUI = getTongCong()
-	//		double afterDiscount = tongThanhTien - tienChietKhau
-	//		double tongCongExpected = Math.max(afterDiscount - tienGiamGia, 0)
-	//		WebUI.comment("Expected Tổng cộng = " + tongCongExpected + " | UI = " + tongCongUI)
-	//
-	//		if (Math.abs(tongCongExpected - tongCongUI) > 2) {
-	//			WebUI.takeScreenshot("Loi_TongCong")
-	//			assert false : "Sai tổng cộng | expected=" + tongCongExpected + " | UI=" + tongCongUI
-	//		}
-	//	}
 	def void verifyTongCong(double tongThanhTien, double tienChietKhau, double tienGiamGia, double vat) {
 
 		double tongCongUI = getTongCong()
@@ -369,22 +341,7 @@ public class SellPage {
 		}
 	}
 
-	//	def void verifyToanBoTien(double discountValue, boolean isPercent) {
-	//		double tongDong = verifyThanhTienTungDong()
-	//		verifyTongThanhTien(tongDong)
-	//		verifyTienChietKhau(discountValue, isPercent)
-	//		verifyTongCong()
-	//	}
-	//	def void verifyToanBoTien(double discountValue, boolean isPercent) {
-	//
-	//			double tongDong = verifyThanhTienTungDong()
-	//			verifyTongThanhTien(tongDong)
-	//			verifyTienChietKhau(discountValue, isPercent)
-	//			double tongThanhTien = getTongThanhTien()
-	//			double tienChietKhau = getTienChietKhau()
-	//			double tienGiamGia = getTienGiamGia()
-	//			verifyTongCong(tongThanhTien, tienChietKhau, tienGiamGia)
-	//		}
+	
 	def void verifyToanBoTien(double discountValue, boolean isPercent) {
 
 		double tongDong = verifyThanhTienTungDong()
@@ -434,44 +391,7 @@ public class SellPage {
 		assert v.split(" ")[0] == ngay.split(" ")[0]
 	}
 
-	//	def verifyNgayTao(String ngay) {
-	//		String v = WebUI.getText(findTestObject('Bán hàng/DanhSachDonHang/HoaDon/date_NgayTao'))?.trim()
-	//		assert v.contains(ngay)
-	//	}
-
-	//	def validateTextBox(String testObjectPath,String expectedValue,boolean shouldMatch) {
-	//		try {
-	//			String actual = WebUI.getAttribute(findTestObject(testObjectPath),'value')
-	//			boolean actualResult = actual.trim() == expectedValue.trim()
-	//			assert actualResult == shouldMatch
-	//		}
-	//		catch(Exception e){
-	//			WebUI.takeScreenshot()
-	//			throw e
-	//		}
-	//	}
-	//
-	//
-	//	def validateNumber(path, expectedValue, shouldMatch){
-	//
-	//		String actual = WebUI.getAttribute(findTestObject(path), 'value')
-	//
-	//		boolean actualResult
-	//
-	//		if(isNumeric(actual) && isNumeric(expectedValue)){
-	//			actualResult =
-	//					new BigDecimal(formatData(actual))
-	//					.compareTo(
-	//					new BigDecimal(formatData(expectedValue))
-	//					) == 0
-	//		}
-	//		else{
-	//			actualResult =
-	//					formatData(actual) == formatData(expectedValue)
-	//		}
-	//
-	//		assert actualResult == shouldMatch
-	//	}
+	
 
 	def validateTextBox(String testObjectPath, String expectedValue, boolean shouldMatch) {
 		try {

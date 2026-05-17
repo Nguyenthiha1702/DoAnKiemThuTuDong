@@ -34,6 +34,7 @@ public class PurchasePage {
 		WebUI.scrollToElement(menuGiaoDich, 5)
 		WebUI.waitForElementClickable(menuGiaoDich, 5)
 		WebUI.click(menuGiaoDich)
+		WebUI.delay(2)
 
 		WebUI.waitForElementVisible(subNhapHang, 5)
 		WebUI.scrollToElement(subNhapHang, 5)
@@ -289,36 +290,7 @@ public class PurchasePage {
 		assert data.trangThai.contains(expectedTrangThai) :"Sai trạng thái | expected=${expectedTrangThai} | actual=${data.trangThai}"
 		assert Math.abs(data.tong - expectedTongCong) < 1 :"Sai tổng cộng | expected=${expectedTongCong} | actual=${data.tong}"
 	}
-	//	def verifyThongTinChiTiet(String expectedMaCT,String expectedNCC,String expectedNgayNhap,String expectedNguoiTao,double expectedTongCong,String expectedTrangThai) {
-	//		TestObject maCTObj       = findTestObject('Nhập Hàng/XemChiTiet/txt_maCT')
-	//		TestObject nccObj        = findTestObject('Nhập Hàng/XemChiTiet/txt_NhaCungCap')
-	//		TestObject ngayNhapObj   = findTestObject('Nhập Hàng/XemChiTiet/date_NgayNhap')
-	//		TestObject nguoiTaoObj   = findTestObject('Nhập Hàng/XemChiTiet/txt_NguoiTao')
-	//		TestObject trangThaiObj  = findTestObject('Nhập Hàng/XemChiTiet/txt_TrangThai')
-	//		TestObject tongCongObj   = findTestObject('Nhập Hàng/XemChiTiet/num_TongCong')
-	//		WebUI.waitForElementVisible(maCTObj, 10)
-	//		WebUI.waitForElementVisible(nccObj, 10)
-	//
-	//		String maCT_UI = WebUI.getText(maCTObj)?.trim()
-	//		String ncc_UI = WebUI.getText(nccObj)?.trim()
-	//		String ngayNhap_UI = WebUI.getText(ngayNhapObj)?.trim()
-	//		String nguoiTao_UI = WebUI.getText(nguoiTaoObj)?.trim()
-	//		String trangThai_UI = WebUI.getText(trangThaiObj)?.trim()
-	//
-	//		double tongCong_UI = parseMoney(WebUI.getText(tongCongObj)?.trim())
-	//		assert maCT_UI != null && !maCT_UI.isEmpty() :"Không lấy được mã CT từ UI"
-	//		assert maCT_UI.equals(expectedMaCT) :" Sai mã CT | expected=" + expectedMaCT + " | actual=" + maCT_UI
-	//		assert ncc_UI.contains(expectedNCC) :" Sai NCC | expected=" + expectedNCC + " | actual=" + ncc_UI
-	//		assert ngayNhap_UI.contains(expectedNgayNhap) :" Sai ngày nhập | expected=" + expectedNgayNhap + " | actual=" + ngayNhap_UI
-	//		assert nguoiTao_UI.contains(expectedNguoiTao) :" Sai người tạo | expected=" + expectedNguoiTao + " | actual=" + nguoiTao_UI
-	//		assert trangThai_UI.contains(expectedTrangThai) :"Sai trạng thái | expected=" + expectedTrangThai + " | actual=" + trangThai_UI
-	//		assert Math.abs(tongCong_UI - expectedTongCong) < 1 :"Sai tổng cộng | expected=" + expectedTongCong + " | actual=" + tongCong_UI
-	//
-	//		WebUI.comment(" PASS VERIFY CHI TIẾT")
-	//	}
-	//
-
-
+	
 	def verifyMotDong(String maHang, String soLuongExp, String giaNhapExp) {
 
 		TestObject objMa  = findTestObject('Nhập Hàng/XemChiTiet/row_maHang', ['maHang': maHang])
@@ -357,32 +329,6 @@ public class PurchasePage {
 		return WebUI.getText(to)?.trim()
 	}
 
-	//	def verifyFirstProductCode(String expected) {
-	//		String actual = getFirstProductCode()
-	//		assert actual == expected : "Mã hàng có tồn tạis | expected=${expected} | actual=${actual}"
-	//	}
-	//	def verifyFirstProductCodeNo(String expected) {
-	//		WebUI.verifyElementNotPresent(findTestObject('Nhập Hàng/XemChiTiet/txt_MaHangDauTien'),5)
-	//	}
-
-	//	def verifyFirstProductCodeNo(String expected) {
-	//		def obj = findTestObject('Nhập Hàng/XemChiTiet/txt_MaHangDauTien')
-	//
-	//		boolean isPresent = WebUI.waitForElementPresent(obj, 5)
-	//
-	//		assert !isPresent :
-	//		"Không mong đợi tìm thấy mã '${expected}' nhưng vẫn xuất hiện"
-	//	}
-
-	//	def verifyFirstProductCodeNo(String expected) {
-	//		def obj = findTestObject('Nhập Hàng/XemChiTiet/txt_MaHangDauTien')
-	//
-	//		// 👉 FIX ở đây
-	//		boolean isPresent = WebUI.waitForElementPresent(obj, 5, FailureHandling.OPTIONAL)
-	//
-	//		assert !isPresent :
-	//			"Không mong đợi tìm thấy mã '${expected}' nhưng vẫn xuất hiện"
-	//	}
 	def verifyFirstProductCodeNo(String expected) {
 		def obj = findTestObject('Nhập Hàng/XemChiTiet/txt_MaHangDauTien')
 
@@ -455,7 +401,24 @@ public class PurchasePage {
 		}
 		assert actualResult == shouldMatch
 	}
+	
+	def formatData(String value) {
+		if (value == null) return ""
+		String cleanValue = value.replaceAll(",", "")
+		if (cleanValue.endsWith(".0")) {
+			cleanValue = cleanValue.substring(0, cleanValue.length() - 2)
+		}
+		return cleanValue.trim()
+	}
 
+
+	def isNumeric(String v){
+		if(v == null) return false
+
+		v = v.replaceAll(",", "")
+
+		return v ==~ /^\d+(\.\d+)?$/
+	}
 
 	def double parseMoney(String text) {
 		if (!text) return 0

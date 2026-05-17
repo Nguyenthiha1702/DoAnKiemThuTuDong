@@ -16,10 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 import com.pages.PurchasePage
+
 
 PurchasePage purchasePage = new PurchasePage()
 WebUI.comment("Running: " + tc_id)
-WebUI.setText(findTestObject('Nhập Hàng/TimKiem/txt_TimDoiTac'),maDT)
-purchasePage.validateTextBox('Nhập Hàng/TimKiem/txt_TimDoiTac',maDT,expect.toBoolean())
+WebUI.setText(findTestObject('Nhập Hàng/TimKiem/txt_TimTheoMaCT'),maCT)
+purchasePage.validateTextBox('Nhập Hàng/TimKiem/txt_TimTheoMaCT',maCT,expect.toBoolean())

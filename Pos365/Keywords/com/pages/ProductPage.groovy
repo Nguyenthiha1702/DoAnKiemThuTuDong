@@ -306,40 +306,7 @@ public class ProductPage {
 		assert WebUI.getAttribute(obj, 'value')?.trim() == value?.trim()
 	}
 
-	//	def validateSearch(String ten, String ncc, String type) {
-	//		type = type.trim().toUpperCase()
-	//		if (type == 'TEN') {
-	//			WebUI.setText(findTestObject('Hàng hóa/TimKiem/Txt_TimKiemTen'), ten)
-	//			WebUI.delay(1)
-	//			String actual = WebUI.getAttribute(findTestObject('Hàng hóa/TimKiem/Txt_TimKiemTen'), 'value')
-	//			assert actual == ten
-	//		} else if (type == 'NCC') {
-	//			WebUI.setText(findTestObject('Hàng hóa/TimKiem/Txt_TimKiemNCC'), ncc)
-	//			WebUI.delay(1)
-	//			String actual = WebUI.getAttribute(findTestObject('Hàng hóa/TimKiem/Txt_TimKiemNCC'), 'value')
-	//			assert actual == ncc
-	//		} else {
-	//			WebUI.comment(" Sai type: " + type)
-	//			assert false
-	//		}
-	//	}
-
-	//	def validateProductInputFields(String tc_id, String ma,String ten,String giaBan,String giaVon,String tonKho,String dvt) {
-	//		WebUI.comment("Tc: " + tc_id)
-	//		try {
-	//			Map actual = getValuesOnForm()
-	//			assert actual.ma.trim() == ma.trim()
-	//			assert actual.ten.trim() == ten.trim()
-	//			assert formatData(actual.giaBan) == formatData(giaBan)
-	//			assert formatData(actual.giaVon) == formatData(giaVon)
-	//			assert formatData(actual.tonKho) == formatData(tonKho)
-	//			assert actual.dvt.trim() == dvt.trim()
-	//			WebUI.comment("Validate thành công")
-	//		} catch(Exception e){
-	//			WebUI.takeScreenshot()
-	//			throw e
-	//		}
-	//	}
+	
 
 	def validateTextBox(String testObjectPath,String expectedValue,boolean shouldMatch) {
 		try {

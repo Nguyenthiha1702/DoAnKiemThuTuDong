@@ -6,12 +6,11 @@
    <elementGuidId>9abbdd7b-6556-4d66-818a-f30445b9d96e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(., 'Tên đăng nhập hoặc mật khẩu không hợp lệ')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[contains(., '${message}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DangNhap_Validate</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>99f752de-252d-44d2-9d60-e3a28b99d4b1</testSuiteGuid>
+   <testCaseLink>
+      <guid>e926e22e-8c17-4c91-b8ca-0ff1658c191a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/common/openBrower</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5c9eb5ba-b3ff-4c41-96bc-c83129f93537</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Đăng nhập/Validation/Val_DN01--10- Validate Tên đăng nhập</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>891c260b-de90-4473-8ae1-35db2fb8d267</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/Validate/validateTenDangNhap</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>891c260b-de90-4473-8ae1-35db2fb8d267</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Tên </value>
+         <variableId>ca4cbcf0-84f1-4edd-ab99-5563650ed3b6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>891c260b-de90-4473-8ae1-35db2fb8d267</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TC_id</value>
+         <variableId>eabc671b-0c8c-4f8a-9119-fdb1dab85b18</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>891c260b-de90-4473-8ae1-35db2fb8d267</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expect</value>
+         <variableId>00876f32-51bc-46e9-ac1a-7de1ee09e94c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9aec8f4a-2e03-4d45-93db-39d2bef49223</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Đăng nhập/Validation/Val_DN011--19- Validate Mật khẩu</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f29cbad4-0be9-4044-933f-bf9e739e15e2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/Validate/ValidateMatKhau</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f29cbad4-0be9-4044-933f-bf9e739e15e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Mật khẩu</value>
+         <variableId>1dca9f0e-6def-408a-9485-5be59c9f2828</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f29cbad4-0be9-4044-933f-bf9e739e15e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TC_id</value>
+         <variableId>9234a0df-bce1-4940-bb60-4b6acbf5db12</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f29cbad4-0be9-4044-933f-bf9e739e15e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expect</value>
+         <variableId>fcd5b8ce-d2da-490b-a5c8-9cb9648b3dc9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

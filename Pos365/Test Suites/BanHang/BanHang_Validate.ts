@@ -134,28 +134,28 @@
       <testCaseId>Test Cases/Bán Hàng/Validate/Val_BH27--32 Validate Giá Bán</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>b23d016a-e43c-448b-91e6-3e5d4ce365ab</id>
+         <id>c862a37a-01c4-4dde-ae45-cb9e4863a4e3</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Purchase/Validate Giá bán</testDataId>
+         <testDataId>Data Files/Sell/Validate Giá bán</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>b23d016a-e43c-448b-91e6-3e5d4ce365ab</testDataLinkId>
+         <testDataLinkId>c862a37a-01c4-4dde-ae45-cb9e4863a4e3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>TC_id</value>
          <variableId>b590e12f-511a-4b25-a38b-cf866b63820c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>b23d016a-e43c-448b-91e6-3e5d4ce365ab</testDataLinkId>
+         <testDataLinkId>c862a37a-01c4-4dde-ae45-cb9e4863a4e3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Giá Bán </value>
          <variableId>b9d62d08-d4bc-4cb5-bff4-133ad05c7887</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>b23d016a-e43c-448b-91e6-3e5d4ce365ab</testDataLinkId>
+         <testDataLinkId>c862a37a-01c4-4dde-ae45-cb9e4863a4e3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>expect</value>
          <variableId>11bb5010-de6f-42fa-bd45-ce7574ec5656</variableId>

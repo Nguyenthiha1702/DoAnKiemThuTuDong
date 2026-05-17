@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>NhapHang_SuaPhieuNhap</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>098a20f9-6c32-44e1-97b6-8f1eb169695c</testSuiteGuid>
+   <testCaseLink>
+      <guid>04584684-e464-497a-9154-a25d5fd3a637</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nhập Hàng/CapNhat/Func_NH24-Cập Nhật Danh Sách Hàng hóa</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b0245c6-94bc-44cc-b6f8-b0e3031cee7c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nhập Hàng/CapNhat/Func_NH25- Cập nhật thông tin nhà cung cấp</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>149ebf02-03cd-4fb9-b49d-74f29c11b6b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c016e9db-5743-40e8-88c9-42159194dc82</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ef94389-c697-4c4b-a0ca-3b5c0734da45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nhập Hàng/CapNhat/Func_NH26- Cập nhật ngày nhập</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>373cddea-7266-40cc-bc7e-ef00cf13b03d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>71f7bf02-d30b-45d9-883e-60f2787fc891</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>94d68779-f672-4913-86c8-8ddb8d4bcc4e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nhập Hàng/CapNhat/Func_NH27_Cập nhật với trạng thái Xử lý sang Hoàn thành</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6d6d6a71-70eb-4817-b8a1-b0a24d063c9a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>30858408-202f-49aa-b412-fd7eae465e0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nhập Hàng/CapNhat/Func_NH28 - Cập nhật mã CT trùng</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>56108961-5c88-4959-8de0-9677fa31d8cf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>34dc5b5b-bd5a-48b7-b636-fc67cce49146</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

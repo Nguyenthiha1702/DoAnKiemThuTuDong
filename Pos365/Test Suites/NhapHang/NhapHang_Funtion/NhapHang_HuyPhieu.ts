@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>NhapHang_HuyPhieu</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>8582628f-35a3-434e-a564-6d252d81310c</testSuiteGuid>
+   <testCaseLink>
+      <guid>fc7549b7-964e-41cd-93d5-95b507445f99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nhập Hàng/HuyPhieu/Func_NH29- Hủy thành công phiếu</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ebf36955-533c-488e-8e90-fc6cb1276105</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c6e6b703-a61e-4a24-9af3-92875d86aeda</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nhập Hàng/HuyPhieu/Func_NH30 - Hủy và ấn Thoát</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8e495666-3400-4796-8755-5f085694c373</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>86ccfb06-7bf3-4776-8a05-fe7fc07626da</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nhập Hàng/HuyPhieu/Func_NH31- Hủy và ấn X</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>33787a49-a8cf-4fa7-9312-1e7868fc83c3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
