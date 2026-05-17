@@ -113,7 +113,7 @@
       <guid>325ca550-6ea6-4314-8dbc-98c4d752b7ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Quản lý hàng hóa/TimKiem/Func_HH15- Tìm kiếm theo loại Dịch vụ và Combo - k có dl</testCaseId>
+      <testCaseId>Test Cases/Quản lý hàng hóa/TimKiem/Func_HH15- Tìm kiếm theo loại Hàng hóa và Combo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

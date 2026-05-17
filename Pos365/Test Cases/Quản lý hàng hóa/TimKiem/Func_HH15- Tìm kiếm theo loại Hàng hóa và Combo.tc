@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Func_HH15- Tìm kiếm theo loại Dịch vụ và Combo - k có dl</name>
+   <name>Func_HH15- Tìm kiếm theo loại Hàng hóa và Combo</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
