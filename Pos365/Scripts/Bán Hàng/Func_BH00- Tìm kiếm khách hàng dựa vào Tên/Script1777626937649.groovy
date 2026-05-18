@@ -24,4 +24,4 @@ sellPage.moManHinhBanHang()
 String kh = "huy thanh"
 sellPage.nhapKhachHang(kh)
 sellPage.verifyThongTinKhachHang(kh,null)
-//cicd
+//test ci cd
